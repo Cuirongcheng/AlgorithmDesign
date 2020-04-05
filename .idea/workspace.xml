@@ -27,6 +27,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../3D-R2N2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager" selected="Python.Demo_bucket_sort">
@@ -190,7 +191,7 @@
       <workItem from="1585222666070" duration="1808000" />
       <workItem from="1585394393174" duration="1210000" />
       <workItem from="1585490832173" duration="8648000" />
-      <workItem from="1585750420483" duration="60000" />
+      <workItem from="1585750420483" duration="3026000" />
     </task>
     <servers />
   </component>
@@ -198,6 +199,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1585791225179">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1585791225179" />
     <state width="1323" height="166" key="GridCell.Tab.0.bottom" timestamp="1584373670597">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
