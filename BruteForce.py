@@ -2,20 +2,19 @@
 # 崔荣成 2020.3.18
 # 蛮力法常用算法整理
 
-print("1.排序算法")
-import sys
-A = [64, 25, 12, 22, 11]
+print("字符串匹配算法")
 
-def SelectionSort(A):
-    for i in range(len(A)):
-        min = i
-        for j in range(i + 1, len(A)):
-            if A[min] > A[j]:
-                min = j
-        A[i], A[min] = A[min], A[i]
-
-    print("排序后的数组：")
-    for i in range(len(A)):
-        print("%d" % A[i])
-
-SelectionSort(A)
+def BruteForceStringMatch(t,p):
+   n = len(t)
+   m = len(p)
+   for i in range(n-m):
+      j = 0
+      while j < m and p[j]==t[i+j]:
+         j = j+1
+         if j == m:
+            return i
+         else:
+            return -1
+T = "cuirongcheng"
+P = "r"
+print(BruteForceStringMatch(T,P))
